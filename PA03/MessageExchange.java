@@ -29,6 +29,12 @@ public interface MessageExchange {
     void removeUser(User u);
 
     /**
+     * Get a copy of all users in this room.
+     * @return ArrayList<User> all users
+     */
+    ArrayList<User> getUsers();
+
+    /**
      * Record the given message to the chat log. This method
      * supports potential message validations. Return true if
      * the message meets the validation conditions and is added

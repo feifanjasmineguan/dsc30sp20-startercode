@@ -24,6 +24,11 @@ public class PhotoRoom implements MessageExchange {
         /* TODO */
     }
 
+    public ArrayList<User> getUsers() {
+        /* TODO */
+        return null;
+    }
+
     public boolean recordMessage(Message m) {
         /* TODO */
         return false;
